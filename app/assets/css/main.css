@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Vazir';
+  src: url('../fonts/vazir/Vazirmatn-FD-NL-Regular.woff2') format('woff2'),
+  url('../fonts/vazir/Vazirmatn-FD-NL-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  font-family: 'Vazir', sans-serif;
+}
+
+* {
+  direction: rtl;
+  box-sizing: border-box;
+}
+
+.carousel-casrds-shadow-box {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px!important;
+}
