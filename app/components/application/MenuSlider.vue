@@ -80,6 +80,7 @@ const imageForMenu = [
 onMounted(() => {
   window.addEventListener('resize', () => {
     windowW.value = window.innerWidth
+    
   })
 })
 </script>

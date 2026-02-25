@@ -7,6 +7,7 @@ export default {
         logoColor: "#ccab69",
         browForDescribe: "#5d4037",
         brownForIcon: "#3b2610",
+        grayText: "#545454",
       },
     },
   },

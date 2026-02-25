@@ -2,7 +2,7 @@
   <ul class="flex gap-6 lg:w-[80%] w-[95%]">
     <li class="flex gap-2 cursor-pointer relative group">
       <span>
-        <v-icon icon="mdi-menu"></v-icon>
+        <v-icon  size="small" icon="mdi-menu"></v-icon>
       </span>
       <span>
         محصولات

@@ -15,7 +15,7 @@
             slidesPerView: 1,
           },
           640: {
-            slidesPerView: 2,
+            slidesPerView: 3,
             spaceBetween: 20,
           },
           800: {
@@ -31,7 +31,7 @@
         <template 
           #swipper_item="{ objectValue, index }"
         >
-          <div :key="index" class=" inline-flex items-center flex-col gap-2 border border-gray-300 h-[215px]  rounded-xl">
+          <div :key="index" class=" inline-flex items-center flex-col gap-2 border border-gray-300 h-[205px]  rounded-xl">
             <img class="w-[150px] h-[150px] object-cover p-1" draggable="false" :src="objectValue.src" />
             <hr class="w-[90%]" />
             <h6 class="w-[170px] text-sm font-light text-center font-['vazir']">

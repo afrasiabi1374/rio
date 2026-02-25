@@ -7,12 +7,20 @@
       <ApplicationMenuSlider></ApplicationMenuSlider>
     </div>
     <div class="p-10">
-      <ApplicationProductsSlider></ApplicationProductsSlider>
+      <div>
+        <ApplicationProductsSlider></ApplicationProductsSlider>
+      </div>
+      <div>
+        <ApplicationBestSellers></ApplicationBestSellers>
+      </div>
     </div>
+    <ApplicationRioWithYou></ApplicationRioWithYou>
+    <ApplicationRioBranches></ApplicationRioBranches>
   </div>
 </template>
 
 <script lang="ts" setup>
+
 
 
 
